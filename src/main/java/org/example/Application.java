@@ -6,6 +6,12 @@ public class Application {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         MetierProduitImpl metierProduit = new MetierProduitImpl();
+
+        metierProduit.add(new Produit(1, "Product1", "Brand1", 10.0, "Description1", 100));
+        metierProduit.add(new Produit(2, "Product2", "Brand2", 20.0, "Description2", 200));
+        metierProduit.add(new Produit(3, "Product3", "Brand3", 30.0, "Description3", 300));
+
+
         boolean app_run = true;
 
         while (app_run) {
