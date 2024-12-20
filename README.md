@@ -20,7 +20,7 @@
 
 <img src="./imgs/2.png">
 
-### - Créer une classe MetierProduitImpl qui implémente l’interface IMetier. Cette classe contient un attribut qui représente une liste de produits.
+### Créer une classe MetierProduitImpl qui implémente l’interface IMetier. Cette classe contient un attribut qui représente une liste de produits.
 
 <img src="./imgs/3.png">
 
